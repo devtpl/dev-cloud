@@ -1,0 +1,21 @@
+{
+  "name": "netcloud",
+  "version": "1.0.0",
+  "description": "package for creating workers templates",
+  "main": "index.js",
+  "scripts": {
+    "serve": "wrangler preview --watch",
+    "build": "wrangler preview",
+    "publish": "wrangler preview --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "songxingguo <13289899422.qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "serverless-cloudflare-workers": "^1.2.0"
+  }
+}
